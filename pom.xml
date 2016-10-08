@@ -4,6 +4,7 @@
 	<groupId>org.zxs</groupId>
 	<artifactId>webhdfs-java-client</artifactId>
 	<version>0.0.2</version>
+	<packaging>jar</packaging>
 
 	<dependencies>
 
@@ -11,6 +12,12 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>3.0.7.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-tools</artifactId>
+			<version>1.2.1</version>
 		</dependency>
 
 		<dependency>
